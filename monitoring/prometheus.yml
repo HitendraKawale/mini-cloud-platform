@@ -2,6 +2,6 @@ global:
   scrape_interval: 5s
 
 scrape_configs:
-  - job_name: "ai-api"
+  - job_name: "fastapi"
     static_configs:
-      - targets: ["host.docker.internal:8000"]
+      - targets: ["fastapi:8000"]

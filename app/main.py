@@ -1,5 +1,5 @@
 from fastapi import FastAPI, Request
-from app.api.routes import router
+from api.routes import router
 from prometheus_client import Counter, Histogram, generate_latest, CONTENT_TYPE_LATEST
 from fastapi.responses import Response
 import time
